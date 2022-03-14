@@ -24,7 +24,7 @@ on:
 
 jobs:
   build:
-    runs-on: k8s-runner-e2e
+    runs-on: k8s-runner-build
 
     # We allow builds:
     # 1) When triggered manually
